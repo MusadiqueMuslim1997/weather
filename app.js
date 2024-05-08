@@ -4,7 +4,7 @@
 let apiKey = "453bec0f92cfe1098067b6933f8162c2";
 let apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 let seacrh = document.getElementById("input-city");
-
+let addImg = document.getElementById("weather-img");
 
 async function checkWeather(city) {
     let response = await fetch(apiUrl + city + `&appid=${apiKey}`)
