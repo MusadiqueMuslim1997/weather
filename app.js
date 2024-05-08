@@ -22,7 +22,7 @@ async function checkWeather(city) {
         addImg.src = "images/weather.png"
     }
     else if(data.weather[0].main == "Clouds"){
-        addImg.src = "imagesrainy.png"
+        addImg.src = "images/rainy.png"
     }
     else if(data.weather[0].main == "Haze"){
         addImg.src = "images/haz.png"
