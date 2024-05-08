@@ -356,6 +356,7 @@ a {
 .foot{
     padding: 10px 20px;
     gap: 30px;
+    margin-top: 10px;
 }
     .humid {
         width: 45%;
@@ -403,6 +404,7 @@ a {
 
     .main {
         padding: 10px 20px;
+        justify-content: space-between;
 
     }
 
