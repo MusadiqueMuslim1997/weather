@@ -7,13 +7,13 @@
 }
 
 body {
-    background: radial-gradient(circle at 10% 50%, rgb(59, 149, 237) 0%, rgb(7, 91, 173) 90%);
+    background: linear-gradient(90deg, rgb(34, 34, 34) 8.3%, rgb(0, 40, 60) 41.6%, rgb(0, 143, 213) 93.4%);
 }
 
 header {
     width: 100%;
     height: 30px;
-    padding: 20px 40px;
+    padding: 30px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -45,7 +45,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 40px;
     padding: 20px 40px;
     gap: 10px;
 
@@ -122,11 +122,12 @@ a {
 
 .img {
     width: 30%;
-    gap: 1px;
+    gap: 5px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    
 
 
 
