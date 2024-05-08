@@ -1,0 +1,420 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body {
+    background-image: url("images/background.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    width: 100%;
+    height: 30px;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    /* background-color: antiquewhite; */
+}
+
+.cont>h2 {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.git {
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 20px 40px;
+    gap: 10px;
+
+}
+
+.inpt {
+    width: 500px;
+    border: none;
+
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+.inpt:focus {
+    outline: skyblue;
+}
+
+.btns {
+
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.city-name {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0px 40px;
+    gap: 10px;
+    color: white;
+    font-size: 2rem;
+}
+
+.head {
+    width: 100%;
+}
+
+.date {
+    width: 100%;
+    color: white;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.time {
+    width: 100%;
+    color: white;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.main {
+    width: 100%;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px 40px;
+    gap: 10px;
+
+
+
+}
+
+.img {
+    width: 30%;
+    gap: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.temp {
+
+
+
+    width: 30%;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.temp1 {
+    width: 100%;
+
+    color: white;
+    font-size: 2rem;
+}
+
+.temp2 {
+    width: 100%;
+
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.img1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.clr {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.8rem;
+    color: white;
+    font-weight: 600;
+}
+
+.img1>img {
+    width: 60%;
+}
+
+.foot {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 40px;
+    gap: 10px;
+
+
+}
+
+.humid {
+    width: 20%;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.max {
+    width: 20%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+
+}
+
+.min {
+    width: 20%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+
+}
+
+.speed {
+    width: 20%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+
+
+}
+
+.humid-icn {
+
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    color: white;
+
+}
+
+.humid-val {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+
+}
+
+.humid-val-a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.humid-val-b {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
+
+.max-1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.max-2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+
+}
+
+
+
+
+@media screen and (max-width: 550px) {
+
+    header {
+        padding: 20px;
+    }
+
+    .cont>h2 {
+        font-size: 0.8rem;
+    }
+
+    .git {
+        font-size: 1.5rem;
+    }
+
+    .search {
+        padding: 10px 20px;
+
+    }
+
+    .inpt {
+        width: 340px;
+    }
+
+    .city-name {
+        padding: 10px 20px;
+        font-size: 1.5rem;
+    }
+
+    .date {
+        font-size: 0.8rem;
+    }
+
+    .time {
+        font-size: 0.8rem;
+    }
+
+    .main {
+        padding: 10px 20px;
+
+    }
+
+    .img1>img {
+        width: 100%;
+    }
+.foot{
+    padding: 10px 20px;
+    gap: 30px;
+}
+    .humid {
+        width: 45%;
+    }
+
+    .max {
+        width: 45%;
+    }
+
+    .min {
+        width: 45%;
+    }
+
+    .speed {
+        width: 45%;
+    }
+
+    .humid-icn {
+        font-size: 2rem;
+    }
+
+    .humid-val-a {
+        font-size: 0.8rem;
+    }
+
+    .humid-val-b {
+        font-size: 0.8rem;
+    }
+    .max-1{
+        font-size: 0.8rem;
+    }
+    .max-2{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .search {
+        justify-content: space-between;
+    }
+
+    .inpt {
+        width: 290px;
+    }
+
+    .main {
+        padding: 10px 20px;
+
+    }
+
+    .clr {
+        font-size: 1rem;
+    }
+
+    .temp1 {
+        font-size: 1rem;
+    }
+
+    .temp2 {
+        font-size: 0.8rem;
+    }
+}

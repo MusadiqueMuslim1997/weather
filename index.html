@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <header>
+        <div class="cont">
+            <h2>Musadique's Weather Watch</h2>
+        </div>
+        <div class="git"><a href="https://github.com/MusadiqueMuslim1997" target="_blank"><i
+                    class="fa-brands fa-github"></i></a></div>
+    </header>
+
+    <section class="search">
+        <div><input class="inpt" type="search" name="" id="input-city" placeholder="Enter city name"></div>
+        <div><button class="btns" onclick="searchcity()"><i class="fa-solid fa-magnifying-glass"></i></button></div>
+    </section>
+
+    <section class="city-name">
+        <div class="head">
+            <h2 id="cities">Karachi</h2>
+        </div>
+        <div class="date">Wednesday, May 9</div>
+        <div class="time">8:24 PM</div>
+    </section>
+
+
+    <section class="main">
+        <div class="img">
+            <div class="img1"><img src="images/weather.png" alt=""></div>
+            <div class="clr" id="type"></div>
+        </div>
+        <div class="temp">
+            <div class="temp1">
+                <h2 id="temp"></h2>
+            </div>
+            <div class="temp2" id="feel"></div>
+        </div>
+    </section>
+
+    <section class="foot">
+        
+        <div class="max">
+            <div class="max-1" id="max"></div>
+            <div class="max-2">Max. Temperature</div>
+        </div>
+        <div class="min">
+            <div class="min-1 max-1" id="min"></div>
+            <div class="min-2 max-2">Min. Temperature</div>
+        </div>
+        <div class="humid">
+            <div class="humid-icn"><i class="fa-solid fa-droplet"></i></div>
+            <div class="humid-val">
+                <div class="humid-val-a" id="humidity"></div>
+                <div class="humid-val-b">Humidity</div>
+            </div>
+
+        </div>
+        <div class="wind humid">
+            <div class="wind-icn humid-icn"><i class="fa-solid fa-wind"></i></div>
+            <div class="wind-val humid-val">
+                <div class="wind-val-a humid-val-a" id="wind"></div>
+                <div class="wind-val-b humid-val-b">Wind Speed</div>
+            </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
