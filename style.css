@@ -7,11 +7,7 @@
 }
 
 body {
-    background-image: url("images/background.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background: radial-gradient(circle at 10% 50%, rgb(59, 149, 237) 0%, rgb(7, 91, 173) 90%);
 }
 
 header {
