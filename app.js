@@ -18,6 +18,18 @@ async function checkWeather(city) {
     document.getElementById("max").innerHTML = Math.round(data.main.temp_max) + "°C";
     document.getElementById("min").innerHTML = Math.round(data.main.temp_min) + "°C";
     document.getElementById("type").innerHTML = data.weather[0].main;
+    if(data.weather[0].main == "Clear"){
+        addImg.src = "images/weather.png"
+    }
+    else if(data.weather[0].main == "Clouds"){
+        addImg.src = "imagesrainy.png"
+    }
+    else if(data.weather[0].main == "Haze"){
+        addImg.src = "images/haz.png"
+    }
+    else{
+        addImg.src = "images/weather.png"
+    }
 }
 function searchcity() {
     checkWeather(seacrh.value);
