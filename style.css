@@ -320,7 +320,8 @@ a {
     }
 
     .search {
-        padding: 10px 20px;
+       
+        padding: 20px 20px;
 
     }
 
@@ -386,6 +387,9 @@ a {
     }
     .max-2{
         font-size: 0.8rem;
+    }
+    .btns{
+        font-size: 1.5rem;
     }
 }
 
