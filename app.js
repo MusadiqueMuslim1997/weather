@@ -19,6 +19,11 @@ async function checkWeather(city) {
     document.getElementById("min").innerHTML = Math.round(data.main.temp_min) + "°C";
     document.getElementById("type").innerHTML = data.weather[0].main;
     document.getElementById("date").innerHTML= (moment().format('LL'));
+
+
+   
+
+
     setInterval(function(){
         document.getElementById("time").innerHTML= (moment().format('LTS'));
     })
@@ -31,7 +36,7 @@ async function checkWeather(city) {
 
 
     if (data.weather[0].main == "Clear") {
-        addImg.src = "images/weather.png"
+        addImg.src = "images/sun.png"
     }
     else if (data.weather[0].main == "Clouds") {
         addImg.src = "images/rainy.png"
