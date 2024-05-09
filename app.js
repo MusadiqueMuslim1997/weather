@@ -19,8 +19,10 @@ async function checkWeather(city) {
     document.getElementById("min").innerHTML = Math.round(data.main.temp_min) + "°C";
     document.getElementById("type").innerHTML = data.weather[0].main;
     document.getElementById("date").innerHTML= (moment().format('LL'));
-    
-    document.getElementById("time").innerHTML= (moment().format('LTS'));
+    setInterval(function(){
+        document.getElementById("time").innerHTML= (moment().format('LTS'));
+    })
+   
 
 
 
