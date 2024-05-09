@@ -18,22 +18,10 @@ async function checkWeather(city) {
     document.getElementById("max").innerHTML = Math.round(data.main.temp_max) + "°C";
     document.getElementById("min").innerHTML = Math.round(data.main.temp_min) + "°C";
     document.getElementById("type").innerHTML = data.weather[0].main;
-    document.getElementById("date").innerHTML= (moment().format('LL'));
-
-
-   
-
-
-    setInterval(function(){
-        document.getElementById("time").innerHTML= (moment().format('LTS'));
+    document.getElementById("date").innerHTML = (moment().format('LL'));
+    setInterval(function () {
+        document.getElementById("time").innerHTML = (moment().format('LTS'));
     })
-   
-
-
-
-    
-
-
 
     if (data.weather[0].main == "Clear") {
         addImg.src = "images/sun.png"
@@ -48,7 +36,7 @@ async function checkWeather(city) {
         addImg.src = "images/fog.png"
     }
     else if (data.weather[0].main == "Clouds") {
-        addImg.src = "images/haz.png"
+        addImg.src = "images/clouds.png"
     }
     else {
         addImg.src = "images/weather.png"
