@@ -38,10 +38,16 @@ async function checkWeather(city) {
     if (data.weather[0].main == "Clear") {
         addImg.src = "images/sun.png"
     }
-    else if (data.weather[0].main == "Clouds") {
+    else if (data.weather[0].main == "Rain") {
         addImg.src = "images/rainy.png"
     }
     else if (data.weather[0].main == "Haze") {
+        addImg.src = "images/haz.png"
+    }
+    else if (data.weather[0].main == "Fog") {
+        addImg.src = "images/fog.png"
+    }
+    else if (data.weather[0].main == "Clouds") {
         addImg.src = "images/haz.png"
     }
     else {
