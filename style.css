@@ -127,7 +127,7 @@ a {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    
+
 
 
 
@@ -321,7 +321,7 @@ a {
     }
 
     .search {
-       
+
         padding: 20px 20px;
 
     }
@@ -351,11 +351,13 @@ a {
     .img1>img {
         width: 100%;
     }
-.foot{
-    padding: 10px 20px;
-    gap: 30px;
-    margin-top: 10px;
-}
+
+    .foot {
+        padding: 10px 20px;
+        gap: 30px;
+        margin-top: 10px;
+    }
+
     .humid {
         width: 45%;
     }
@@ -383,13 +385,16 @@ a {
     .humid-val-b {
         font-size: 0.8rem;
     }
-    .max-1{
+
+    .max-1 {
         font-size: 0.8rem;
     }
-    .max-2{
+
+    .max-2 {
         font-size: 0.8rem;
     }
-    .btns{
+
+    .btns {
         font-size: 1.5rem;
     }
 }

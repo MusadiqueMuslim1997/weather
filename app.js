@@ -36,7 +36,7 @@ async function checkWeather(city) {
         addImg.src = "images/fog.png"
     }
     else if (data.weather[0].main == "Clouds") {
-        addImg.src = "images/clouds.png"
+        addImg.src = "images/cl.png"
     }
     else {
         addImg.src = "images/weather.png"
